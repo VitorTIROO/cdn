@@ -3,49 +3,47 @@
       border: 1px solid #d8d8d8;
       border-collapse: separate;
       border-spacing: 0px;
-      border-radius: 15px;
+      border-radius: 10px;
       font-family: Montserrat, Arial, sans-serif;
       background: #fafafa;
       margin: 0 auto;
-      width: 80%;
+      width: 60%;
     }
+  table td{
+    border: 1px solid #cccaca;
+  }
     tr:nth-child(odd) {
       background: #dddddd;
-      width: 50px;
     }
     .col_left {
       text-align: left;
-      margin: 5px;
-      padding: 5px;
+      padding: 2px;
       font-weight: bold;
+      font-size: 15px;
     }
     .col_rigth {
       text-align: right;
-      font-size: 20px;
+      font-size: 15px;
       font-weight: bold;
-      padding: 5px;
+      padding: 2px;
       color: #00642c;
     }
-    thead {
-      font-size: 22px;
+    thead .col_left {
+      text-align: start;
+      font-size: 18px;
       font-weight: bold;
       color: #00642c;
-    }
-    table thead .col_rigth {
-      border-top-right-radius: 10px;
-    }
-    table thead .col_left {
       border-top-left-radius: 10px;
     }
-    tfoot {
-      display: table-row-group;
+
+    thead .col_rigth {
+      border-top-right-radius: 10px;
     }
+
     table tfoot .col_rigth {
       border-bottom-right-radius: 10px;
     }
+
     table tfoot .col_left {
       border-bottom-left-radius: 10px;
-    }
-    tfoot tr {
-      height: 5px;
     }
